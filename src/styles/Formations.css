@@ -1,0 +1,52 @@
+.formationsPage {
+  padding: 4rem 2rem;
+  background-color: #f5f8fa;
+  min-height: 100vh;
+}
+
+.formationsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1E2A38;
+  margin-bottom: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.formationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.formationCard {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.formationCard:hover {
+  transform: translateY(-5px);
+}
+
+.formationImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.formationCard h3 {
+  margin: 1rem;
+  color: #0a74da;
+  font-size: 1.2rem;
+}
+
+.formationCard p {
+  margin: 0 1rem 1.5rem 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}

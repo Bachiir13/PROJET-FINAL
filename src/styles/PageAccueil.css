@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Chicle&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacques+Francois&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.mainContent {
+  background-color: #f5f8fa;
+  color: #333;
+  min-height: 80vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-image: url('../../public/images/pexels-divinetechygirl-1181325.jpg'); /* chemin depuis le dossier public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 16rem 2rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.bannerTitle {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+}
+
+.bannerText {
+  font-size: 1.5rem;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.section {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.sectionTitle {
+  color: #1E2A38;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: josefin Sans, sans-serif;
+}
+
+.sectionCenter {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #34D399;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #34D399;
+}
+
+.formationSection {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.formationSection h2 {
+  font-size: 2rem;
+  color: #1E2A38;
+  margin-bottom: 2rem;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: bold;
+}
+
+.formationList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.formationCard {
+  background-color: #f5f8fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.formationCard h3 {
+  color: #1E2A38;
+  margin-bottom: 1rem;
+  font-family: PT Sans Caption, sans-serif;
+}
+
+.formationCard p {
+  font-family: 'Mukta Vaani', sans-serif;
+}
+
+.formationBtnContainer {
+  margin-top: 2rem;
+}
+
+.formationImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.campusSection {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.campusContent {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch; /* alignement hauteur */
+  height: 400px; /* hauteur fixe à ajuster */
+}
+
+.campusImages {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2rem;
+}
+
+.campusImage {
+  width: 100%;
+  height: 50%; /* moitié de la hauteur parent */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.campusText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  color: #1E2A38;
+  padding: 0 1rem;
+}
+
+.campusText h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.campusText p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  
+}
+
+.excellenceSection {
+  width: 100%;
+  max-width: 1280px;   /* limite la largeur max */
+  margin: 0 auto;      /* centre horizontalement */
+  background-color: #1E2A38; /* bleu vif */
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.excellenceTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.excellenceLogos {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.logoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120px;
+}
+
+.logoImg {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+}
+
+.logoItem p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.professorSection {
+  background-color: #f5f8fa;
+  padding: 4rem 1rem;
+  box-sizing: border-box;
+}
+
+.professorContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.professorText {
+  max-width: 600px;
+  text-align: center;
+}
+
+.professorText h2 {
+  font-size: 2rem;
+  color: #1E2A38;
+  margin-bottom: 1rem;
+}
+
+.professorText p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.professorImageContainer {
+  max-width: 600px;
+  width: 100%;
+}
+
+.professorImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .professorContent {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .professorText {
+    flex: 1;
+  }
+
+  .professorImageContainer {
+    flex: 1;
+    padding-left: 2rem;
+  }
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .excellenceLogos {
+    gap: 2rem;
+  }
+  .logoItem {
+    max-width: 80px;
+  }
+  .logoImg {
+    width: 48px;
+    height: 48px;
+  }
+  .excellenceTitle {
+    font-size: 2rem;
+  }
+}
+
+/* Responsive: empile sur mobile */
+@media (max-width: 767px) {
+  .campusContent {
+    flex-direction: column;
+    height: auto;
+  }
+  .campusImages, .campusText {
+    width: 100%;
+  }
+  .campusImage {
+    height: 200px; /* taille fixe mobile */
+  }
+}
+
+
+/* Responsive */
+@media (min-width: 768px) {
+  .formationList {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .formationCard {
+    width: 30%;
+  }
+}

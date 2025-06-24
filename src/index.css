@@ -13,28 +13,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Ne pas centrer tout le body */
+body {
+  background-color: #242424;
+  color: white;
+}
+
+/* Supprime les styles limitants sur #root */
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Liens */
 a {
   font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
+/* Titres */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+/* Boutons */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -54,6 +71,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Thème clair */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
